@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: ITC Avant Garde Gothic Std;
+	src: url('./ITC_Avant_Garde_Gothic_Std_Book.otf') format('opentype');
+}
+
+body {
+	font-family: ITC Avant Garde Gothic Std, serif;
+	background-color: #ffffff;
+}
+
+nav {
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	height: 90vh;
+}
+.homeimage {
+	background-image: url('./images/Section1.jpg');
+	height: 72vh;
+	width: 90vw;
+	padding: 100px 100px;
+	/* width: 85vw; */
+}
+
+.bg-image-1 {
+	background-image: url('./images/bg-image-1.png');
+}
+
+.bg-image-2 {
+	background-image: url('./images/bg-image-2.png');
+	height: 100vh;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* @media screen and (max-width: 360px) {
+	.bg-image-2 {
+		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 360px) {
+	.gridItems {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+} */
